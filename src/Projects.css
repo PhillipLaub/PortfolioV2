@@ -1,0 +1,39 @@
+.projects {
+  background-color: linen;
+  height: calc(100vh - 90px);
+}
+
+.projects__container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 100px;
+}
+
+.projects__left {
+  flex: 0.3;
+}
+
+.projects__right {
+  flex: 0.7;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projects__name {
+  justify-content: center;
+  display: flex;
+}
+
+.projects__name > h1 {
+  display: flex;
+  font-size: 100px;
+  text-shadow: 2px 2px white;
+}
+
+.projects__row {
+  justify-content: space-evenly;
+}
+
+.projects__card {
+  margin: 20px;
+}
