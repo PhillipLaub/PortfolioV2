@@ -3,7 +3,9 @@
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  background-color: lightpink;
+  background-image: url("/src/images/keyboard.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .home__container {
@@ -21,8 +23,6 @@
 }
 
 .home__right__container {
-  background: lightgray;
-
   justify-content: center;
   margin-top: 25%;
   margin-left: 100px;
@@ -30,12 +30,25 @@
   padding: 20px;
   border: 1px solid black;
   border-radius: 5px;
-  -webkit-box-shadow: 5px 5px 15px 5px #000000;
-  box-shadow: 5px 5px 15px 5px #000000;
+  -webkit-box-shadow: 0px 0px 50px 30px lightgray;
+  box-shadow: 0px 0px 50px 30px lightgray;
+  color: white;
+  backdrop-filter: blur(10px);
+  line-height: 200%;
+  font-size: 16px;
+  text-shadow: 2px 2px black;
+}
+
+.home__right__container:hover {
+  -webkit-box-shadow: 0px 0px 50px 30px white;
+  box-shadow: 0px 0px 50px 30px white;
+  transition: transform 2s;
 }
 
 .home__right__container > h1 {
   display: flex;
+  font-size: 32px;
+  text-shadow: 2px 2px black;
 }
 
 .home__name {
@@ -47,7 +60,8 @@
 .home__name > h1 {
   display: flex;
   font-size: 100px;
-  text-shadow: 2px 2px white;
+  text-shadow: 5px 5px black;
+  color: white;
 }
 
 /*

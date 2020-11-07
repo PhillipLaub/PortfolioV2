@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import HomeCarousel from "./HomeCarousel";
 
 function Home() {
   return (

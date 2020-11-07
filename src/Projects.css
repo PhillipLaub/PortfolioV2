@@ -1,6 +1,11 @@
 .projects {
-  background-color: linen;
+  background-image: url("./images/keyboard.jpg");
   height: calc(100vh - 90px);
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .projects__container {

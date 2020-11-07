@@ -3,6 +3,7 @@ import "./Projects.css";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Home_desktop from "./images/Home_desktop.png";
+import ProjectCarousel from "./ProjectCarousel";
 
 function Projects() {
   return (
@@ -14,7 +15,8 @@ function Projects() {
           </div>
         </div>
         <div className="projects__right">
-          <div className="projects__row">
+          <ProjectCarousel />
+          {/* <div className="projects__row">
             <Card style={{ width: "18rem" }} className="projects__card">
               <Card.Img variant="top" src={Home_desktop} />
               <Card.Body>
@@ -90,7 +92,7 @@ function Projects() {
                 <Button variant="primary">Go somewhere</Button>
               </Card.Body>
             </Card>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
