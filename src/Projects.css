@@ -1,11 +1,10 @@
 .projects {
-  background-image: url("./images/keyboard.jpg");
   height: calc(100vh - 90px);
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* background-repeat: no-repeat;
+  background-size: cover;background-image: url("./images/keyboard.jpg"); */
 }
 
 .projects__container {
@@ -32,7 +31,7 @@
 .projects__name > h1 {
   display: flex;
   font-size: 100px;
-  text-shadow: 2px 2px white;
+  text-shadow: 2px 2px #ffffff;
 }
 
 .projects__row {
