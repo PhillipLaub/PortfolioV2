@@ -9,5 +9,5 @@
   /* background-image: url("/src/images/keyboard.jpg");
   background-repeat: no-repeat;
   background-size: cover; */
-  background-color: #111;
+  background-image: linear-gradient(45deg, #4bb0b6, #6518b4);
 }

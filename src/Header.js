@@ -1,35 +1,24 @@
 import React from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
 import logo from "./images/logo.png";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 
 function Header() {
   return (
-    <div className="header">
-      <Link to="/">
-        <img className="header__logo" src={logo} alt="" />
-        {/* <h1 className="header__logo">laubster.tech</h1> */}
-      </Link>
-
-      <div className="header__nav">
-        <Link to="/">
-          <div className="header__option">
-            <span className="header__optionLineTwo">About</span>
-          </div>
-        </Link>
-
-        <Link to="/projects">
-          <div className="header__option">
-            <span className="header__optionLineTwo">Projects</span>
-          </div>
-        </Link>
-        <Link to="/contact">
-          <div className="header__option">
-            <span className="header__optionLineTwo">Contact</span>
-          </div>
-        </Link>
-      </div>
-    </div>
+    <Navbar bg="light" expand="lg" className="navbar">
+      <Navbar.Brand href="/about">
+        <img src={logo} alt="" className="logo" />
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/projects">Projects</Nav.Link>
+          <Nav.Link href="/about">About</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 
