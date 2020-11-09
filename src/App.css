@@ -11,3 +11,34 @@
   background-size: cover; */
   background-image: linear-gradient(45deg, #4bb0b6, #6518b4);
 }
+
+.app__left {
+  z-index: 10000;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  width: 100px;
+  top: 33%;
+}
+.app__icons {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.app__social {
+  cursor: pointer;
+  transition-timing-function: ease-in-out !important;
+  transition: transform 1.2s !important;
+}
+
+.app__social:hover {
+  transform: scale(1.5) !important;
+}
+
+.MuiSvgIcon-root {
+  display: flex;
+  font-size: 50px !important;
+  color: White;
+  margin-left: 20px;
+  margin-top: 60px;
+}

@@ -13,6 +13,20 @@
   padding-top: 100px;
 }
 
+.projects__right {
+  position: absolute;
+  border: 1px solid red;
+}
+
+.about__text2 {
+  color: White;
+  text-shadow: 3px 3px black;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 140px;
+}
+
 .projects__left {
   flex: 0.3;
 }
