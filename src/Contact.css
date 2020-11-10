@@ -1,0 +1,33 @@
+.contact__text {
+  color: White;
+  font-size: 30px;
+  padding: 10px 200px 60px 200px;
+}
+
+.contact__text > p {
+  transform: skewY(6deg);
+  padding: 20px;
+}
+
+.alert-danger {
+  font-size: 14px !important;
+}
+
+.card {
+  background-image: linear-gradient(45deg, #4bb0b6, #6518b4);
+  width: 60%;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  -webkit-box-shadow: 0px 0px 50px 30px #547eb6;
+  box-shadow: 0px 0px 50px 30px #547eb6;
+  color: #ffffff;
+  line-height: 200%;
+  font-size: 16px;
+  border-radius: 10px !important;
+}
+
+.btn {
+  background-image: linear-gradient(45deg, #4bb0b6, #6518b4);
+}

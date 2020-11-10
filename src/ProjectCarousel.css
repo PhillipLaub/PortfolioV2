@@ -32,3 +32,26 @@
   opacity: 0.95;
   transition: transform 2s;
 }
+
+/* .carousel__title {
+  background: gray !important;
+  color: black !important;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+} */
+
+.carousel__text {
+  background: gray;
+  position: absolute;
+  top: 30;
+  padding-bottom: 0;
+  border-radius: 20px;
+  opacity: 0.95;
+}
+
+.carousel__button {
+  background-image: linear-gradient(45deg, #4bb0b6, #6518b4);
+  padding: 5px 20px;
+  font-size: 22px;
+}

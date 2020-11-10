@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./Header";
 import Home from "./Home";
 import Projects from "./Projects";
-import About from "./About";
+import Contact from "./Contact";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -34,9 +34,9 @@ function App() {
             <Home />
           </Route>
 
-          <Route path="/about">
+          <Route path="/contact">
             <Header />
-            <About />
+            <Contact />
           </Route>
 
           <Route path="/projects">

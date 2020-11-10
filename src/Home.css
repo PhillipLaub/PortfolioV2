@@ -1,65 +1,91 @@
-.home {
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  /* background-image: url("/src/images/keyboard.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; */
-}
-
-.home__container {
+.about {
   height: calc(100vh - 90px);
   width: 100vw;
-  display: flex;
+  max-height: calc(100vh - 90px);
 }
 
-.home__left {
-  flex: 0.3;
+.diagonal-box {
+  background-image: linear-gradient(30deg, black, gray);
+
+  transform: skewY(-6deg);
+
+  /* border-top: 2px solid #111; */
+  position: relative;
+  top: 0px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+.content {
+  max-width: 50em;
+  margin: 0 auto;
+  position: relative;
 }
 
-.home__right {
-  flex: 0.7;
+.banner__bottom {
+  padding-bottom: 50px;
 }
 
-.home__right__container {
-  justify-content: center;
-  margin-top: 25%;
-  margin-left: 100px;
-  margin-right: 100px;
+.about__text {
+  color: White;
+  text-shadow: 3px 3px black;
+  font-size: 30px;
+  padding: 10px 200px 60px 200px;
+}
+
+.about__text > p {
+  transform: skewY(6deg);
   padding: 20px;
-  border: 1px solid black;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 50px 30px lightgray;
-  box-shadow: 0px 0px 50px 30px lightgray;
-  color: #ffffff;
-  backdrop-filter: blur(10px);
-  line-height: 200%;
-  font-size: 16px;
-  text-shadow: 2px 2px black;
 }
 
-.home__right__container:hover {
-  -webkit-box-shadow: 0px 0px 50px 30px #ffffff;
-  box-shadow: 0px 0px 50px 30px #ffffff;
-  transition: transform 2s;
-}
-
-.home__right__container > h1 {
-  display: flex;
-  font-size: 32px;
-  text-shadow: 2px 2px black;
-}
-
-.home__name {
-  justify-content: center;
-  display: flex;
-  margin-top: 100px;
-}
-
-.home__name > h1 {
-  display: flex;
+.content > h1 {
   font-size: 100px;
-  text-shadow: 5px 5px black;
-  color: #ffffff;
+  text-shadow: 6px 6px black;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  padding-top: 50px;
+  color: white;
+  transform: skewY(6deg);
+  font-weight: 800;
+}
+
+.diagonal-box:before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(45deg, #654ea3, #eaafc8);
+  transform: skewY(-6deg);
+}
+
+.banner--fadeTop {
+  height: 3.4rem;
+  background-image: linear-gradient(
+    360deg,
+    transparent,
+    rgba(26, 24, 30, 1),
+    #111
+  );
+}
+
+.banner--fadeBottom {
+  bottom: 0;
+  height: 3.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(26, 24, 30, 1),
+    #111
+  );
+}
+
+.banner__bottom > h5 {
+  text-shadow: 2px 2px black;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  transform: skewY(6deg);
+  font-weight: 600;
 }

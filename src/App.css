@@ -42,3 +42,129 @@
   margin-left: 20px;
   margin-top: 60px;
 }
+
+@media only screen and (max-width: 768px) {
+  .banner__bottom > h5 {
+    font-size: 28px !important;
+  }
+
+  .about__text {
+    padding: 0 60px !important;
+    font-size: 20px !important;
+  }
+  .right {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  .card {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .banner__bottom > h5 {
+    font-size: 28px !important;
+  }
+
+  .about__text {
+    padding: 0 60px !important;
+    font-size: 20px !important;
+  }
+  html,
+  body {
+    margin: 0;
+    height: 100%;
+    overflow: inherit;
+    background-image: linear-gradient(45deg, #4bb0b6, #6518b4);
+  }
+
+  .projectCarousel {
+    width: 600px !important;
+  }
+  .content > h1 {
+    font-size: 40px !important;
+  }
+  .right {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-link {
+    font-size: 25px !important;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .banner__bottom > h5 {
+    font-size: 20px !important;
+    padding: 20px !important;
+  }
+
+  .about__text {
+    padding: 0 30px !important;
+    font-size: 18px !important;
+  }
+
+  .content > h1 {
+    font-size: 50px !important;
+    margin-top: 50px !important;
+  }
+
+  .banner__bottom {
+    padding-bottom: 0 !important;
+  }
+
+  .nav-link {
+    margin-left: 0 !important;
+    font-size: 40px !important;
+  }
+
+  .navbar {
+    padding-top: 20px !important;
+  }
+
+  .app__left {
+    top: 10%;
+    right: 0;
+    left: auto;
+  }
+  .MuiSvgIcon-root {
+    margin-top: 40px;
+  }
+
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+
+  .projectCarousel {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .carousel-caption {
+    padding-bottom: 0;
+  }
+
+  .right {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  .carousel__button {
+    font-size: 12px !important;
+  }
+  .carousel__text > h3 {
+    font-size: 16px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .carousel__text {
+    padding-top: 10px !important;
+  }
+
+  .contact__text {
+    padding: 0 !important;
+  }
+}
